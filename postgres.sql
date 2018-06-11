@@ -1,3 +1,11 @@
+CREATE DATABASE "help-me"
+  WITH OWNER = postgres
+       ENCODING = 'LATIN1'
+       TABLESPACE = pg_default
+       LC_COLLATE = 'C'
+       LC_CTYPE = 'C'
+       CONNECTION LIMIT = -1;
+
 CREATE TABLE usuario
 (
   id bigserial NOT NULL,
